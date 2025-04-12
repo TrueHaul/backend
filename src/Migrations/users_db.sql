@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS users (
+    _id VARCHAR(100) PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    username VARCHAR(20) NOT NULL UNIQUE,
+    password VARCHAR(256) NOT NULL,
+    phone_number VARCHAR(16) NOT NULL
+);
