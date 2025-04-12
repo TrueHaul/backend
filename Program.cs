@@ -13,5 +13,4 @@ app.MapControllers();
 
 // Optional: Root test
 app.MapGet("/", () => "Backend is running!");
-
 app.Run();
