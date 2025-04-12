@@ -1,0 +1,53 @@
+# Build results
+bin/
+obj/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core secrets
+**/secrets.json
+*.pfx
+
+# Dotnet watch temp
+**/tmp/
+
+# Logs
+*.log
+logs/
+
+# User-specific files
+*.vspscc
+*.vssscc
+*.dbmdl
+
+# NuGet packages (optional)
+*.nupkg
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Auto-generated files
+Generated_Code/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# dotenv
+.env
+.env.*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
